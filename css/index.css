@@ -51,6 +51,12 @@ section h2{
 	margin-bottom: .5em;
 }
 
+#filtrar-tabela {
+	width: 200px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
 table{
 	width: 100%;
 	margin-bottom : .5em;
@@ -129,10 +135,23 @@ button[disabled=disabled], button:disabled {
     margin-top: 30px;
 }
 
-.campo-invalido{
+.campo-invalido {
 	border: 1px solid red;
 }
 
 .paciente-invalido {
 	background-color: lightcoral;
+}
+
+#mensagens-erro {
+	color: red;
+}
+
+.fadeOut {
+	opacity: 0;
+	transition: 0.5s;
+}
+
+.invisivel {
+	display: none;
 }
